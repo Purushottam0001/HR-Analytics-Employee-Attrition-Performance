@@ -55,5 +55,3 @@ HR departments can use this system to:
 ## 👤 Author
 **Purushottam Kumar  
 GitHub: https://github.com/PURUSHOTTAM0001
-
-## 📂 Project Structure
