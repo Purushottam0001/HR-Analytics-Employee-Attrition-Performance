@@ -30,7 +30,9 @@ The goal is to help organizations:
 ---
 ## 📂 Project Structure
 ├── data/
+│   └──
 ├── notebooks/
+│   └──
 ├── models/
 ├── README.md
 
