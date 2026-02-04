@@ -61,13 +61,16 @@ This project predicts whether an employee is likely to leave using historical HR
 ---
 
 ## 📂 Project Structure
+
+```text
 HR-Analytics-Employee-Attrition-Performance/
 │
-├── data/ # dataset files
-├── notebooks/ # EDA + model training notebooks
-├── models/ # saved trained models
-├── requirements.txt # dependencies
+├── data/                # dataset files
+├── notebooks/           # EDA + model training notebooks
+├── models/              # saved trained models
+├── requirements.txt     # dependencies
 └── README.md
+
 
 
 ---
