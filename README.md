@@ -1,21 +1,50 @@
-# HR Analytics – Employee Attrition & Performance Prediction
+# 🚀 HR Analytics – Employee Attrition & Performance Prediction
 
-## 📌 Project Overview
-This project analyzes employee data to identify the key factors that lead to employee attrition and predict employee performance using Machine Learning techniques.
+## 📌 Overview
+Built a Machine Learning–based HR Analytics system to predict employee attrition and analyze workforce performance using real-world HR data.
 
-The goal is to help organizations:
+The system helps organizations:
 - Reduce employee turnover
-- Improve employee satisfaction
-- Make data-driven HR decisions
+- Identify high-risk employees early
+- Improve retention strategies
+- Enable data-driven HR decisions
 
 ---
 
-## 🚀 Features
-- Data Cleaning & Preprocessing
-- Exploratory Data Analysis (EDA)
-- Attrition Prediction Model
-- Performance Analysis
-- Visualization & Insights
+## 🎯 Problem Statement
+Employee attrition leads to increased hiring costs and productivity loss.  
+This project predicts whether an employee is likely to leave using historical HR data and behavioral patterns.
+
+---
+
+## ✨ Key Features
+✔ Data Cleaning & Preprocessing  
+✔ Exploratory Data Analysis (EDA)  
+✔ Outlier Detection (IQR Method)  
+✔ Feature Engineering & Encoding  
+✔ Model Training & Comparison  
+✔ Visualization & Business Insights  
+
+---
+
+## 🤖 Machine Learning Models Used
+- Logistic Regression
+- Random Forest
+- XGBoost
+- Support Vector Machine (SVM)
+
+---
+
+## 📊 Results (Test Set Performance)
+
+| Model | Accuracy | Precision | Recall | F1-score |
+|-------|----------|-----------|---------|-----------|
+| **Logistic Regression** | **87.4%** | 86.0% | 87.4% | 85.7% |
+| Random Forest | 84.0% | 78.9% | 84.0% | 77.9% |
+| XGBoost | 83.7% | 79.7% | 83.7% | 80.3% |
+| SVM | 86.7% | 86.3% | 86.7% | 83.2% |
+
+✅ **Best Model → Logistic Regression**
 
 ---
 
@@ -23,37 +52,35 @@ The goal is to help organizations:
 - Python
 - Pandas
 - NumPy
-- Matplotlib / Seaborn
+- Matplotlib
+- Seaborn
 - Scikit-learn
+- XGBoost
 - Jupyter Notebook
 
 ---
+
 ## 📂 Project Structure
-├── data/
-│   └──
-├── notebooks/
-│   └──
-├── models/
-├── README.md
+HR-Analytics-Employee-Attrition-Performance/
+│
+├── data/ # dataset files
+├── notebooks/ # EDA + model training notebooks
+├── models/ # saved trained models
+├── requirements.txt # dependencies
+└── README.md
+
 
 ---
+
 ## ▶️ How to Run
-1. Install requirements
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/PURUSHOTTAM0001/HR-Analytics-Employee-Attrition-Performance.git
+cd HR-Analytics-Employee-Attrition-Performance
+
+2️⃣ Install dependencies
 pip install -r requirements.txt
 
-
-**2. Run notebook**
+3️⃣ Run notebook
 jupyter notebook
----
-
-## 📊 Use Case
-HR departments can use this system to:
-- Predict which employees might leave
-- Understand attrition reasons
-- Improve workforce planning
-
----
-
-## 👤 Author
-**Purushottam Kumar  
-GitHub: https://github.com/PURUSHOTTAM0001
